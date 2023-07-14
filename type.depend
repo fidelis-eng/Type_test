@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603009327 source:e:\pjj\type\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
