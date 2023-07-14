@@ -191,9 +191,15 @@ while(1){
 	for(i = 0 ; 1 ; i++){  
 		system("cls");
 
-		k = rand()%100;    //berfungsi untuk mengacak kata 
+		k = rand()%99;    //berfungsi untuk mengacak kata 
+		printf("\n%d", k);
+
 	    printf("\n===========Ketik Kembali!===========");
-   	    printf("\n\t\t%s", s[k]);
+		printf("\n\t\t%d," &k)
+	    if (s[k] != NULL || s[k] != ' '){
+			printf("\n\t\t%d," k);
+   	    	printf("\n\t\t%s", s);			//berfungsi untuk mencetak kata
+    	}
 	    printf("\n====================================");   //berfungsi untuk mencetak kata
    		
 		akhir_t = clock();
